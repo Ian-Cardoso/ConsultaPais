@@ -9,3 +9,8 @@ Detalhes Abrangentes: Visualize a bandeira, capital, região, população, moeda
 Interface Intuitiva: Um design limpo e responsivo para uma experiência de usuário agradável.
 
 link do projeto: https://ian-cardoso.github.io/ConsultaPais/
+
+![image](https://github.com/user-attachments/assets/2d9d09b8-2adf-4c4a-948e-5b508e948bb9)
+
+![image](https://github.com/user-attachments/assets/b492f9ef-284e-4b52-ba67-99dfd7266c75)
+
