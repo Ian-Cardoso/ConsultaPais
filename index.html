@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Visualizador de Países</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌍 Visualizador de Países</h1>
+    <input type="text" id="searchInput" placeholder="Digite o nome de um país em ingles..." />
+    <button>Pesquisar</button>
+  </header>
+
+  <main>
+    <section id="countryInfo" class="card hidden">
+      <img id="flag" src="" alt="Bandeira do país"/>
+      <h2 id="name"></h2>
+      <p><strong>Capital:</strong> <span id="capital"></span></p>
+      <p><strong>Região:</strong> <span id="region"></span></p>
+      <p><strong>População:</strong> <span id="population"></span></p>
+      <p><strong>Moedas:</strong> <span id="currencies"></span></p>
+      <p><strong>Idiomas:</strong> <span id="languages"></span></p>
+      <div>
+        <strong>Países Vizinhos:</strong>
+        <div id="borders" class="neighbors"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito usando REST Countries API</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
